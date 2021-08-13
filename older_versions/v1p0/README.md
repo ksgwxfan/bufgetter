@@ -1,10 +1,9 @@
-# BufGetter v1.01
+# BufGetter v1.0
 
 - A [Bufkit](https://training.weather.gov/wdtd/tools/BUFKIT/) companion and alternative to BufGet enabling rapid and dynamic forecast profile retrieval.
 - This is a Python tkinter zipapp.
 
 ### Contents
-* [Fixes in this Version](#fixes-in-this-version)
 * [Features](#feature-overview)
 * [Installation](#installation)
 * [How to Use](#how-to-use)
@@ -12,11 +11,6 @@
 * [Modify Default Settings](#modify-default-settings)
 * [Future Update Ideas](#future-update-ideas)
 * [Credits/Links](#credits)
-
-### Fixes in this Version
-- Fixed retrieval issues (dynamic-url creation) for ISU Bufkit Warehouse site.
-
-[&#8679; back to Contents](#contents)
 
 ### Feature Overview
 - Quickly retrieve the latest bufkit soundings files (`.buf`) by assembling a list of stations, and marking which weather models you'd like to get.
@@ -31,7 +25,7 @@
 - This program is a Python tkinter zipapp. As such, you obviously need a Python installation (v3.5 or later), and have tkinter installed with it. Otherwise, this ain't gonna work.
 - Download `BufGetter.pyz`. It is intended to be placed in the the default Bufkit Data folder. To find out what this directory is, open Bufkit and click `Set Up` in the top-right corner.
 
-![Bufkit Directory Example (images/bufg_guide_dir.png)](images/bufg_guide_dir.png)
+![Bufkit Directory Example (bufg_guide_dir.png)](bufg_guide_dir.png)
 
   - Example: if the Folder that holds the bufkit profiles is `C:/Users/Trogdor/Documents/Bufkit/Data/`, you'd want to place `BufGetter.pyz` in `C:/Users/Trogdor/Documents/Bufkit`
   - The program's default behavior is to save downloads to that `Data` folder.
@@ -43,7 +37,7 @@
 
 ### How to Use
 
-![bufg_guide.gif](images/bufg_guide.gif)
+![bufg_guide.gif](bufg_guide.gif)
 
 1) In the entry box, type-in the station(s) that you want to retrieve data for. Multiple stations should be comma-separated (the program can also interpret space-separated if you find that more convenient).
 2) Remember to check/uncheck the archive option (on the right) reflecting your aim. In this version, by default it is turned off, but I would highly recommend to change that setting.
@@ -66,7 +60,7 @@
 
 ### Modify Default Settings
 
-![bufg_help_01.png](images/bufg_help_01.png)
+![bufg_help_01.png](bufg_help_01.png)
 
 - Select `Options`, then `Change Default Settings`. Here you can change the default website option (PSU or ISU), change the file paths to match your Bufkit Configuration settings, or indicate default archive file creation (this option doesn't download the file twice, so no extra data is used).
 
