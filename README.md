@@ -1,4 +1,4 @@
-# BufGetter v1.01
+# BufGetter v1.1
 
 - A [Bufkit](https://training.weather.gov/wdtd/tools/BUFKIT/) companion and alternative to BufGet enabling rapid and dynamic forecast profile retrieval.
 - This is a Python tkinter zipapp.
@@ -14,6 +14,10 @@
 * [Credits/Links](#credits)
 
 ### Fixes in this Version
+- Improved Settings change dialog
+  - Prior to this update, the dialog wouldn't close correctly one didn't use the button widget for that purpose.
+- Fixed inoperability in the last uploaded (but now discarded) version: I forgot to uncomment the `.mainloop()` method call!
+  - I didn't bother to archive that version
 - Fixed retrieval issues (dynamic-url creation) for ISU Bufkit Warehouse site.
 
 [&#8679; back to Contents](#contents)
